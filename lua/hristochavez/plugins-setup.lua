@@ -23,21 +23,6 @@ return packer.startup(function(use)
     -- Packer puede autogestionarse
     use("wbthomason/packer.nvim")
 
-    -- Colorscheme nightfly
-    use("bluz71/vim-nightfly-guicolors")
-
-    -- Colorscheme tokyonight
-    use("folke/tokyonight.nvim")
-
-    -- Colorscheme moonfly
-    use("bluz71/vim-moonfly-colors")
-
-    -- Colorscheme gruvbox
-    use("ellisonleao/gruvbox.nvim")
-
-    -- Colorscheme github
-    use("projekt0n/github-nvim-theme")
-
     -- Iconos para una interfaz más intuitiva.
     use("nvim-tree/nvim-web-devicons")
 
@@ -78,11 +63,10 @@ return packer.startup(function(use)
     use("hrsh7th/cmp-nvim-lsp")
     use("glepnir/lspsaga.nvim")
     use("onsails/lspkind.nvim")
-
     use("nvim-treesitter/nvim-treesitter")
 
-    -- Tema kanagawa.
-    use("rebelot/kanagawa.nvim")
+    -- Tema Catppuccin
+    use("catppuccin/nvim")
 
     if packer_bootstrap then
         require("packer").sync()

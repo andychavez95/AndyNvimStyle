@@ -21,7 +21,8 @@ mason_lspconfig.setup({
         "bashls",
         "emmet_ls",
         "sqlls",
-        "lemminx"
+        "lemminx",
+        "jedi_language_server"
     }
 });
 
