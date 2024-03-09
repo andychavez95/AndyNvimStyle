@@ -42,7 +42,7 @@ return packer.startup(function(use)
     use("nvim-lua/plenary.nvim")
 
     -- Busca archivos de forma rápida con Telescope.
-    use({ "nvim-telescope/telescope.nvim", tag = "0.1.1" })
+    use({ "nvim-telescope/telescope.nvim", tag = "0.1.5" })
 
     -- Autocompletado.
     use("hrsh7th/nvim-cmp")
@@ -65,8 +65,20 @@ return packer.startup(function(use)
     use("onsails/lspkind.nvim")
     use("nvim-treesitter/nvim-treesitter")
 
-    -- Tema Catppuccin
-    use("catppuccin/nvim")
+    -- Tema PaperColor
+    use("NLKNguyen/papercolor-theme")
+
+    -- Tema Nord.
+    use("nordtheme/vim")
+
+    -- Tema Jellybeans.
+    use("metalelf0/jellybeans-nvim")
+
+    -- Lush
+    use("rktjmp/lush.nvim")
+
+    -- Tema Nightfox
+    use "EdenEast/nightfox.nvim" -- Packer
 
     if packer_bootstrap then
         require("packer").sync()

@@ -22,7 +22,7 @@ mason_lspconfig.setup({
         "emmet_ls",
         "sqlls",
         "lemminx",
-        "jedi_language_server"
+        "pylsp"
     }
 });
 

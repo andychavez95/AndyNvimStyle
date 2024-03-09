@@ -1,6 +1,6 @@
-local status, _  = pcall(vim.cmd, "colorscheme github_dark")
+local status, _  = pcall(vim.cmd, "colorscheme duskfox")
 if not status then
-    print("Colorscheme no encontrado.")
+    print("Colorscheme not found")
     return
 end
 

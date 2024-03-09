@@ -1,4 +1,3 @@
-require("hristochavez.plugins.kanagawa")
 require("hristochavez.plugins-setup")
 require("hristochavez.plugins.lualine")
 require("hristochavez.plugins.nvim_web_devicons")
